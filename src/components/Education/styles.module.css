@@ -1,0 +1,42 @@
+.container {
+    color: gray;
+    margin-top: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+.title {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    color: var(--color-text);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    /* text-transform: uppercase; */
+  }
+
+.education_container{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.circle_style{
+  color: gray;
+}
+
+.MuiStepLabel-labelContainer .MuiStepLabel-label div:nth-child(2) {
+  margin-left: 20px;
+}
+
+.each_content{
+  margin-left: 20px;
+  padding: 10px;
+  color:gray;
+}
+
+
+
+
+

@@ -1,0 +1,22 @@
+[
+    {
+      "title": "HTML",
+      "imageSrc": "skills/html_logo.png"
+    },
+    {
+      "title": "CSS",
+      "imageSrc": "skills/css_logo.png"
+    },
+    {
+      "title": "React",
+      "imageSrc": "skills/react_logo.png"
+    },
+    {
+      "title": "Node",
+      "imageSrc": "skills/nodejs_logo.png"
+    },
+    {
+      "title": "C++",
+      "imageSrc": "skills/coo_logo.png"
+    }
+]

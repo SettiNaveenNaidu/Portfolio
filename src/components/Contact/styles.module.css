@@ -1,0 +1,90 @@
+.container {
+  color: var(--color-text);
+  margin-top: 80px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.title {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  /* text-transform: uppercase; */
+}
+
+.contact_form{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.content {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.mail_card{
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap:10px;
+  height: 10vh;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 6px;
+}
+
+.contact_form input{
+  height: 40px;
+  margin-top: 5px;
+  border-radius: 3px;
+}
+
+.contact_form textarea{
+  height: 20vh;
+  margin-top: 5px;
+  border-radius: 3px;
+
+}
+
+.contact_form label{
+  margin-top: 10px;
+}
+
+.submit_button{
+  width: 20%;
+  background-color: rgb(82, 82, 200);
+  color: white;
+}
+
+.card_boxes{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  gap:20px;
+  padding: 10px;
+}
+
+@media  (max-width:830px) {
+  .content{
+    display: flex;
+    flex-direction: column;
+  }
+.contact_form{
+  width: 100%;
+}
+
+  
+  
+}
+
+

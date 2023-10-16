@@ -1,0 +1,10 @@
+[
+    {
+      "role": "Software Developer Engineer - 1",
+      "organisation": "Cogoport",
+      "startDate": "August, 2023",
+      "endDate": "Present",
+      "experiences": ["CX Automation","Currently developing Prioritisation Engine aimed at allocating tasks to the operators through Queues.","Multi Queues for multislot operators. Allocating roles and permissions in Queue level ."],
+      "imageSrc": "experience/cogoport.png"
+    }
+]

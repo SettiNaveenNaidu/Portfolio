@@ -1,0 +1,49 @@
+.footer_container{
+    margin-top: 70px;
+    background-color: black;
+    height: 7rem;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 50px;
+    padding: 20px;
+  }
+  
+  .link {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .link a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+  }
+  
+  @media screen and (max-width: 830px) {
+    .container {
+      flex-direction: column;
+      gap: 23px;
+    }
+  
+    .text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .links {
+      align-items: center;
+      flex-direction: column;
+    }
+  }
+
+  

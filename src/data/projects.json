@@ -1,0 +1,35 @@
+[
+    {
+      "id":1,
+      "title": "Blog Webpage",
+      "date":"August 2021",
+      "imageSrc": "projects/code_snip.png",
+      "description": "This is a project made to learn the latest languages by building an app.",
+      "skills": ["React", "Css", "Axios"],
+      "demo": "https://www.example.com",
+      "source": "https://github.com/SettiNaveenNaidu/Blog_Assignment",
+      "basis":"Individual"
+    },
+    {
+      "id":2,
+      "title": "Major Project",
+      "date":"August 2021",
+      "imageSrc": "projects/code_snip.png",
+      "description": "This is a project made to learn the latest languages by building an app.",
+      "skills": ["Python", "Machine Learning"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com",
+      "basis":"Course"
+    },
+    {
+      "id":3,
+      "title": "Exams Point",
+      "date":"August 2021",
+      "imageSrc": "projects/code_snip.png",
+      "description": "An Online Examination Portal happy to share this with you",
+      "skills": ["React", "Express", "Node"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com",
+      "basis":"Course"
+    }
+]
