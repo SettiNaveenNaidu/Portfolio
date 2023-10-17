@@ -27,3 +27,15 @@
   gap: 40px;
   width: 100%;
 }
+
+.slick-arrow .slick-prev {
+  position: absolute;
+  left: 10px; 
+  z-index: 1; 
+  background-color: #0074d9; 
+  color: white; 
+  font-size: 20px; 
+  padding: 5px 10px; 
+  border: none; 
+  cursor: pointer;
+}

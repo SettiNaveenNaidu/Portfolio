@@ -19,6 +19,9 @@ const Footer =()=>{
                 <SocialIcon url="www.github.com" />
                 <a href="https://github.com/SettiNaveenNaidu">Github</a>
                 </li>
+                <li className={styles.link}>
+                <p style={{color:'white'}}>@naveensetti</p>
+                </li>
             </ul>
 
         </div>
