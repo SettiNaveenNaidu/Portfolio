@@ -1,5 +1,4 @@
 import { useState } from "react";
-
 import styles from "./styles.module.css";
 import { getImageUrl } from "../../utils";
 
@@ -8,41 +7,53 @@ const Navbar = () => {
 
   return (
     <nav className={styles.navbar}>
+      <div className={styles.hamburger_style}>
       <a className={styles.title} href="/">
         Naveen
       </a>
-      <div className={styles.menu}>
-        {/* <img
+      <img
           className={styles.menuBtn}
           src={
             menuOpen
-              ? getImageUrl("nav/closeIcon.png")
-              : getImageUrl("nav/menuIcon.png")
+              ? getImageUrl("nav/close.png")
+              : getImageUrl("nav/hamburger.png")
           }
           alt="menu-button"
           onClick={() => setMenuOpen(!menuOpen)}
-        /> */}
-        <ul
-          className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
-          onClick={() => setMenuOpen(false)}
-        >
+        />
+        </div>
+      <div className={styles.menu}>
+       
+        <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}>
           <li>
-            <a href="#about">About</a>
+            <a href="#about" onClick={() => setMenuOpen(false)}>
+              About
+            </a>
           </li>
           <li>
-            <a href="#education">Education</a>
+            <a href="#education" onClick={() => setMenuOpen(false)}>
+              Education
+            </a>
           </li>
           <li>
-            <a href="#experience">Experience</a>
+            <a href="#experience" onClick={() => setMenuOpen(false)}>
+              Experience
+            </a>
           </li>
           <li>
-            <a href="#skill">Skills</a>
+            <a href="#skill" onClick={() => setMenuOpen(false)}>
+              Skills
+            </a>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <a href="#projects" onClick={() => setMenuOpen(false)}>
+              Projects
+            </a>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <a href="#contact" onClick={() => setMenuOpen(false)}>
+              Contact
+            </a>
           </li>
         </ul>
       </div>
@@ -50,4 +61,4 @@ const Navbar = () => {
   );
 };
 
- export default Navbar
+export default Navbar;

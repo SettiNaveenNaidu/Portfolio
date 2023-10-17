@@ -1,7 +1,7 @@
 .footer_container{
     margin-top: 70px;
     background-color: black;
-    height: 7rem;
+    height: 10vh;
 }
 
 .links {
@@ -44,6 +44,20 @@
       align-items: center;
       flex-direction: column;
     }
+
+    .footer_container{
+      height: 30vh;
+    }
+
+    .links{
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      justify-content:center;
+      align-items: center;
+    }
   }
+
+
 
   

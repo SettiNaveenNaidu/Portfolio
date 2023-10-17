@@ -128,6 +128,17 @@
   .content {
     align-items: center;
   }
+  .resumeBtn{
+    font-size: 14px;
+  }
+
+  .contactBtn{
+    font-size: 14px;
+  }
+  .container {
+    gap:70px;
+  }
+
 }
 
 .hero_buttons{

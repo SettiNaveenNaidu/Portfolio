@@ -20,7 +20,7 @@ const Hero=()=>{
         </div>
       </div>
       <img
-        src={getImageUrl("hero/profile_1.png")}
+        src={getImageUrl("hero/new_image.png")}
         alt="Hero image of me"
         className={styles.heroImg}
       />

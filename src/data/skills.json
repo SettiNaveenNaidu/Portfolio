@@ -18,5 +18,17 @@
     {
       "title": "C++",
       "imageSrc": "skills/coo_logo.png"
+    },
+    {
+      "title": "Nextjs",
+      "imageSrc": "skills/nextjs_logo.png"
+    },
+    {
+      "title": "Python",
+      "imageSrc": "skills/python_logo.png"
+    },
+    {
+      "title": "MySql",
+      "imageSrc": "skills/mysql_logo.png"
     }
 ]

@@ -1,7 +1,7 @@
 @import "../../vars.css";
 
 .container {
-  margin-top: 76px;
+  margin-top: 60px;
   color: var(--color-text);
   margin-left: 10%;
   margin-right: 10%;
@@ -18,7 +18,7 @@
 }
 
 .projects {
-  margin-top: 37px;
+  margin-top: 30px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -38,4 +38,12 @@
   padding: 5px 10px; 
   border: none; 
   cursor: pointer;
+}
+
+@media screen and (max-width: 830px) {
+  .projects{
+    display: flex;
+    flex-direction: column;
+  }
+
 }

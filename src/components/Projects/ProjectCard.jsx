@@ -34,9 +34,10 @@ const ProjectCard = ({
         })}
       </ul>
       <div className={styles.links}>
-        <a className={styles.link} onClick={() => openModal(id)}>
+        {/* <a className={styles.link} onClick={() => openModal(id)}>
           View
-        </a>
+        </a> */}
+        <a className={styles.link}>View</a>
         <a href={source} className={styles.link}>
           Github
         </a>
