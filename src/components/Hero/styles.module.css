@@ -131,11 +131,13 @@
   .resumeBtn{
     font-size: 14px;
     align-items: center;
+    padding: 10px;
   }
 
   .contactBtn{
     font-size: 14px;
-    padding: 5px;
+    padding: 10px;
+    align-items: center;
   }
   .container {
     gap:70px;
