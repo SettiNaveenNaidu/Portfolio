@@ -79,6 +79,10 @@
     display: flex;
     flex-direction: column;
   }
+  .mail_card{
+    width: 70%;
+  }
+  
 .contact_form{
   width: 100%;
 }
