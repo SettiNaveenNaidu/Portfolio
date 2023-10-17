@@ -82,6 +82,10 @@
   .mail_card{
     width: 70%;
   }
+  .email_box_down{
+    display: flex;
+    flex-direction: column;
+  }
   
 .contact_form{
   width: 100%;

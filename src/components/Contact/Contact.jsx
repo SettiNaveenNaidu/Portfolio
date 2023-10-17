@@ -28,8 +28,10 @@ const Contact=()=>{
         <div className={styles.card_boxes} >
             <div className={styles.mail_card}>
             <SocialIcon url="www.email.com"  />
+            <div className={styles.email_box_down}>         
                 <p>Email :</p>
                 <p> naveennaidusetti@gmail.com</p>
+            </div>
             </div>
         </div>
         <form ref={form} onSubmit={sendEmail} className={styles.contact_form}>
