@@ -81,7 +81,12 @@
   }
   .card_boxes{
     font-size: 11px;
+
   } 
+  .mail_card{
+    display: flex;
+    flex-direction: row;
+  }
 .contact_form{
   width: 100%;
 }
