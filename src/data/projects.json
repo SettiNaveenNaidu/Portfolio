@@ -7,7 +7,7 @@
       "description": "Developed a blog website using React , featuring JWT-based user ...",
       "skills": ["React", "Css", "Axios"],
       "demo": "https://www.example.com",
-      "source": "https://github.com/SettiNaveenNaidu/Blog_Assignment",
+      "source": "https://github.com/SettiNaveenNaidu/blog_web_page",
       "basis":"Individual"
     },
     {
@@ -29,7 +29,7 @@
       "description": "Developed a basic examination portal to conduct exmas online  ...",
       "skills": ["Html", "Css", "JavaScript","NodeJs","MongoDB"],
       "demo": "https://www.example.com",
-      "source": "https://github.com/SettiNaveenNaidu/ONLINE-EXAMINATION-PORTAL",
+      "source": "#",
       "basis":"Course"
     },
     {
